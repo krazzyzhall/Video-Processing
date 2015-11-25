@@ -1,6 +1,6 @@
 function [vectors]=video_to_vector(Name)
 clc;
-v=VideoReader('rgb-04-1.avi');
+v=VideoReader(Name);
 seg=3;
 keyframeidx=[];
 vectors=[];
